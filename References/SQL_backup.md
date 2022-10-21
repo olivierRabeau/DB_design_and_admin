@@ -1,0 +1,1 @@
+https://learn.microsoft.com/fr-fr/troubleshoot/sql/admin/schedule-automate-backup-database
