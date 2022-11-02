@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="r9itc0HPYhneHl2tyncg" name="Page-1">
-        <mxGraphModel dx="-324" dy="2232" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="-1096" dy="809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -484,16 +484,16 @@
                 <mxCell id="693" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="608" vertex="1">
                     <mxGeometry x="814" y="794" width="31" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="687" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.495;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="608" source="543" edge="1">
+                <mxCell id="687" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="608" edge="1">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="925.31" y="441" as="sourcePoint"/>
-                        <mxPoint x="925.23" y="545" as="targetPoint"/>
+                        <mxPoint x="927" y="544" as="sourcePoint"/>
+                        <mxPoint x="927" y="419" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="695" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;" parent="608" edge="1">
+                <mxCell id="695" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;entryX=0.5;entryY=1.09;entryDx=0;entryDy=0;entryPerimeter=0;" parent="608" edge="1" target="682">
                     <mxGeometry width="160" relative="1" as="geometry">
-                        <mxPoint x="925" y="627" as="sourcePoint"/>
-                        <mxPoint x="925" y="782" as="targetPoint"/>
+                        <mxPoint x="925" y="779" as="sourcePoint"/>
+                        <mxPoint x="925" y="639" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="720" value="v needs to know&amp;nbsp;&lt;br&gt;availability" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="608" vertex="1">
@@ -764,13 +764,13 @@
                     <mxGeometry x="1798" y="1341.5" width="20" height="29" as="geometry"/>
                 </mxCell>
                 <mxCell id="862" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="808" vertex="1">
-                    <mxGeometry x="1199" y="479" width="20" height="29" as="geometry"/>
+                    <mxGeometry x="1199" y="577" width="20" height="29" as="geometry"/>
                 </mxCell>
-                <mxCell id="863" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="808" vertex="1">
-                    <mxGeometry x="1199" y="683" width="20" height="29" as="geometry"/>
-                </mxCell>
-                <mxCell id="868" value="&lt;span&gt;&lt;b&gt;&lt;u&gt;Partially contained database :&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;When transferring to another server, it is possible to migrate the database to partially contained.&amp;nbsp;&lt;/span&gt;&lt;span&gt;The goal is to make the database autonomous from the server. Logins are deactivated and users connect directly to the database.&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="808">
+                <mxCell id="868" value="&lt;span&gt;&lt;b&gt;&lt;u&gt;Partially contained database :&lt;br&gt;&lt;/u&gt;&lt;/b&gt;&lt;br&gt;When transferring to another server, it is possible to migrate the database to partially contained.&amp;nbsp;&lt;/span&gt;&lt;span&gt;The goal is to make the database autonomous from the server. Logins are deactivated and users connect directly to the database.&lt;/span&gt;&lt;span&gt;&amp;nbsp;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="808" vertex="1">
                     <mxGeometry x="71" y="147" width="346" height="144" as="geometry"/>
+                </mxCell>
+                <mxCell id="873" value="1..*" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="808">
+                    <mxGeometry x="1188" y="814" width="31" height="29" as="geometry"/>
                 </mxCell>
                 <mxCell id="825" value="" style="endArrow=none;html=1;exitX=1.007;exitY=0.12;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" parent="1" source="822" target="478" edge="1">
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
